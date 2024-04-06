@@ -785,21 +785,21 @@
         "tab_FzGNiE": {
           "type": "tab",
           "settings": {
-            "title": "獨創配重設計<br>擁抱毯 2.0",
+            "title": "獨創配重設計\n擁抱毯 2.0",
             "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
           }
         },
         "tab_TngxPJ": {
           "type": "tab",
           "settings": {
-            "title": "一秒瞬黑<br>深眠眼罩",
+            "title": "一秒瞬黑\n眠眼罩",
             "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
           }
         },
         "tab_BammWm": {
           "type": "tab",
           "settings": {
-            "title": "雙面軟硬兼施<br>無憂枕",
+            "title": "雙面軟硬兼施無憂枕",
             "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
           }
         }
@@ -814,12 +814,60 @@
         "content_size": "fill",
         "subheading": "",
         "title": "",
-        "first_tab_open": false,
+        "first_tab_open": true,
         "background": "#ffffff",
         "background_gradient": "",
         "button_color": "#3f86a6",
         "button_second_color": "#ffd400",
-        "text_color": "#ffffff",
+        "text_color": "#3f86a6",
+        "button_text_color": "#ffffff",
+        "text_second_color": "#3f86a6",
+        "heading_color": "#3f86a6",
+        "heading_gradient": ""
+      }
+    },
+    "custom_videos_tabs_aaaa": {
+      "type": "custom-videos-tabs",
+      "blocks": {
+        "tab_FzGNiE": {
+          "type": "tab",
+          "settings": {
+            "title": "獨創配重設計\n擁抱毯 2.0",
+            "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
+          }
+        },
+        "tab_TngxPJ": {
+          "type": "tab",
+          "settings": {
+            "title": "一秒瞬黑\n眠眼罩",
+            "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
+          }
+        },
+        "tab_BammWm": {
+          "type": "tab",
+          "settings": {
+            "title": "雙面軟硬兼施無憂枕",
+            "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
+          }
+        }
+      },
+      "block_order": [
+        "tab_FzGNiE",
+        "tab_TngxPJ",
+        "tab_BammWm"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "fill",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": true,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "button_color": "#3f86a6",
+        "button_second_color": "#ffd400",
+        "text_color": "#3f86a6",
+        "button_text_color": "#ffffff",
         "text_second_color": "#3f86a6",
         "heading_color": "#3f86a6",
         "heading_gradient": ""
@@ -843,6 +891,8 @@
     "media_with_text_g4aazd",
     "multi_column_BQhR7j",
     "faq_dhaLxV",
-    "custom_tabs_qqqq"
+    "custom_tabs_qqqq",
+    "custom_videos_tabs_aaaa"
+
   ]
 }

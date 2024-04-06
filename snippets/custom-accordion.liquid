@@ -27,13 +27,17 @@ Supported parameters
         class="custom-tabs-text"
         {% if size == 'lg' %}class="h6"{% endif %}
         style="color: var(--custom-text-sec-color);"
-      >{{- title | escape -}}</span>
+      >{{- title | newline_to_br -}}</span>
 
       <span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate">{%- render 'icon' with 'chevron-bottom-small' -%}</span>
     </div>
   </summary>
 
-  <div class="accordion__content">
-    {{- content -}}
+  <div class="custom-accordion__content">
+    {%- if image -%}
+      <img src="{{ image | img_url: 'master'}}" alt="">
+    {% else %}
+      {{- content -}}
+    {% endif %}
   </div>
 </details>

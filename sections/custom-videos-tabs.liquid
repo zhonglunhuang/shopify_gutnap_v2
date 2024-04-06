@@ -70,7 +70,7 @@
 
           <x-tabs class="tabs-inner">
             <template shadowrootmode="open">
-              <slot role="tablist" part="custom-tab-list" name="title"></slot>
+              <slot role="tablist" part="custom-taist" name="title"></slot>
               <slot part="tab-panels" name="content"></slot>
             </template>
 
@@ -94,8 +94,8 @@
 
 {% schema %}
 {
-  "name": "Custom-Tabs",
-  "class": "shopify-section--custom-tabs",
+  "name": "Video-Custom-Tabs",
+  "class": "shopify-section--custom-video-tabs",
   "disabled_on": {
     "groups": ["header", "custom.overlay"]
   },
@@ -226,7 +226,7 @@
   ],
   "presets": [
     {
-      "name": "Custom-Tabs",
+      "name": "Custom-video-Tabs",
       "blocks": [
         {
           "type": "tab",
