@@ -833,6 +833,7 @@
           "type": "tab",
           "settings": {
             "title": "獨創配重設計\n擁抱毯 2.0",
+            "sub_title": "QQQQQQQQ",
             "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
           }
         },
@@ -840,6 +841,7 @@
           "type": "tab",
           "settings": {
             "title": "一秒瞬黑\n眠眼罩",
+            "sub_title": "QQQQQQQQ",
             "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
           }
         },
@@ -847,6 +849,7 @@
           "type": "tab",
           "settings": {
             "title": "雙面軟硬兼施無憂枕",
+            "sub_title": "QQQQQQQQ",
             "image_picker": "shopify:\/\/shop_images\/9_01db9d62-7710-4a23-a8f7-1332c22236a0.png"
           }
         }
@@ -864,11 +867,12 @@
         "first_tab_open": true,
         "background": "#ffffff",
         "background_gradient": "",
-        "button_color": "#3f86a6",
-        "button_second_color": "#ffd400",
-        "text_color": "#3f86a6",
-        "button_text_color": "#ffffff",
-        "text_second_color": "#3f86a6",
+        "button_color": "#D7DFE0",
+        "button_second_color": "#3f86a6",
+        "title_color": "#3f86a6",
+        "title_second_color": "#ffd400",
+        "sub_title_color": "#3f86a6",
+        "sub_title_second_color": "#ffffff",
         "heading_color": "#3f86a6",
         "heading_gradient": ""
       }
@@ -893,6 +897,5 @@
     "faq_dhaLxV",
     "custom_tabs_qqqq",
     "custom_videos_tabs_aaaa"
-
   ]
 }

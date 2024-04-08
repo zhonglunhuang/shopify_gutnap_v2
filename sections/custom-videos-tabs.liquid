@@ -15,18 +15,18 @@
       }
     }
 
-    .custom-tabs-nav__button {
-      --custom-text-color: {{section.settings.button_text_color}};
-      --custom-text-sec-color: {{section.settings.text_second_color}};
-      --custom-bg-color: {{section.settings.button_color}};
-      --custom-bg-sec-color: {{section.settings.button_second_color}};
+    .custom-videos-tabs-nav__button {
+      --custom-vidoes-button-color: {{section.settings.button_color}};
+      --custom-vidoes-button-sec-color: {{section.settings.button_second_color}};
     }
 
-    .custom-tabs-text {
-      --custom-text-color: {{section.settings.text_color}};
-      --custom-text-sec-color: {{section.settings.text_second_color}};
-      --custom-bg-color: {{section.settings.button_color}};
-      --custom-bg-sec-color: {{section.settings.button_second_color}};
+    .custom-videos-tabs-nav__button_span_title{
+      --custom-vidoes-tittle-color: {{section.settings.title_color}};
+      --custom-vidoes-tittle-sec-color: {{section.settings.title_second_color}};
+    }
+    .custom-videos-tabs-nav__button_span_sub_title{
+      --custom-vidoes-sub_tittle-color: {{section.settings.sub_title_color}};
+      --custom-vidoes-sub_tittle-sec-color: {{section.settings.sub_title_second_color}};
     }
   </style>
 
@@ -68,20 +68,36 @@
             {%- endfor -%}
           </div>
 
-          <x-tabs class="tabs-inner">
+          <x-tabs class="videos-tabs-inner">
             <template shadowrootmode="open">
-              <slot role="tablist" part="custom-taist" name="title"></slot>
               <slot part="tab-panels" name="content"></slot>
+              <slot role="tablist" part="custom-videos-tab-list" name="title"></slot>
             </template>
 
             {%- for block in section.blocks -%}
               {%- assign title = block.settings.title | default: ""-%}
-              {%- assign image = block.settings.image_picker -%}
+              {%- assign sub_title = block.settings.sub_title | default: ""-%}
+              {%- assign video = block.settings.video -%}
 
               {%- if title != blank and content != blank -%}
-                <button type="button" slot="title" class="custom-tabs-nav__button bold text-center" {{ block.shopify_attributes }}>{{ title | newline_to_br }}</button>
-                <div role="tabpanel" class="custom-tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
-                  <img src="{{ image | img_url: 'master'}}" alt="">
+                <button type="button" slot="title" class="custom-videos-tabs-nav__button text-center" {{ block.shopify_attributes }}>
+                  <span class="custom-videos-tabs-nav__button_span_title"
+                    style="font-weight: 800;">
+                    {{ title | newline_to_br }}
+                  </span>
+                  <span class="custom-videos-tabs-nav__button_span_sub_title"
+                    style="font-weight: 400;">
+                    {{ sub_title | newline_to_br }}
+                  </span>
+                </button>
+                <div role="tabpanel" class="custom-videos-tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
+                  <video-media host="{{ block.settings.external_video_url.type }}" {% if block.settings.autoplay %}autoplay class="pointer-events-none"{% endif %}>
+                      {%- if block.settings.external_video_url.type == 'youtube' -%}
+                        <iframe src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&{% if block.settings.autoplay %}autoplay=1&controls=0&mute=1&loop=1&{% endif %}playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+                      {%- elsif block.settings.external_video_url.type == 'vimeo' -%}
+                      <iframe src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autopause=1&{% if block.settings.autoplay %}background=1&autoplay=1&loop=1&muted=1&{% endif %}transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+                      {%- endif -%}
+                  </video-media>
                 </div>
               {%- endif -%}
             {%- endfor -%}
@@ -175,18 +191,23 @@
     },
     {
       "type": "color",
-      "id": "text_color",
-      "label": "Text"
+      "id": "title_color",
+      "label": "Tittle"
     },
     {
       "type": "color",
-      "id": "button_text_color",
-      "label": "Button Text"
+      "id": "sub_title_color",
+      "label": "Sub Title"
     },
     {
       "type": "color",
-      "id": "text_second_color",
-      "label": "Important Text"
+      "id": "title_second_color",
+      "label": "Important Tittle"
+    },
+    {
+      "type": "color",
+      "id": "sub_title_second_color",
+      "label": "Important Sub Tittle"
     },
     {
       "type": "color",
@@ -211,15 +232,29 @@
           "default": "<p>123</p>"
         },
         {
+          "type": "textarea",
+          "id": "sub_title",
+          "label": "Sub_Title",
+          "default": "<p>321</p>"
+        },
+        {
           "type": "richtext",
           "id": "content",
           "label": "Content",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
         },
         {
-          "type": "image_picker",
-          "id": "image_picker",
-          "label": "Image Picker"
+          "type": "video_url",
+          "id": "external_video_url",
+          "accept": ["vimeo", "youtube"],
+          "label": "Video URL",
+          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+        },
+        {
+          "type": "checkbox",
+          "id": "autoplay",
+          "label": "autoplay",
+          "default": true
         }
       ]
     }
@@ -232,6 +267,7 @@
           "type": "tab",
           "settings": {
             "title": "123",
+            "sub_title": "321",
             "content": "<p>Use this text to share information about your brand with your customers.</p>"
           }
         },
@@ -239,6 +275,7 @@
           "type": "tab",
           "settings": {
             "title": "123",
+            "sub_title": "321",
             "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
@@ -246,6 +283,7 @@
           "type": "tab",
           "settings": {
             "title": "123",
+            "sub_title": "321",
             "content": "<p>Share information about your shipping rates, return policy or contact information.</p>"
           }
         }
