@@ -8639,7 +8639,6 @@ split-lines {
   }
 
   .custom-videos-tabs-nav__button[aria-selected="true"] {
-    border-radius: 10px !important;
     background-color: var(--custom-vidoes-button-sec-color);
   }
 
