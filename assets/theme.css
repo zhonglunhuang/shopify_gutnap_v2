@@ -8572,8 +8572,6 @@ split-lines {
   }
 
   .videos-tabs-inner {
-    text-align: center;
-    gap: var(--spacing-4);
     display: flex;
   }
 

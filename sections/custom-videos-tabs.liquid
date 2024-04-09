@@ -63,12 +63,12 @@
                   <div class="prose">{{ content }}</div>
                 {%- endcapture -%}
 
-                {%- render 'custom-accordion', title: title, content: accordion_content, open: open, image: image-%}
+                {%- render 'custom-accordion', title: title, content: accordion_content, open: open, image: image , block: block -%}
               {%- endif -%}
             {%- endfor -%}
           </div>
 
-          <x-tabs class="videos-tabs-inner">
+          <x-tabs class="tabs-inner videos-tabs-inner">
             <template shadowrootmode="open">
               <slot part="tab-panels" name="content"></slot>
               <slot role="tablist" part="custom-videos-tab-list" name="title"></slot>

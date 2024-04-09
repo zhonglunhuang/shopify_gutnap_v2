@@ -34,8 +34,16 @@ Supported parameters
   </summary>
 
   <div class="custom-accordion__content">
-    {%- if image -%}
+    {%- if image.id -%}
       <img src="{{ image | img_url: 'master'}}" alt="">
+    {% elsif block.settings.external_video_url %}
+      <video-media host="{{ block.settings.external_video_url.type }}" {% if block.settings.autoplay %}autoplay class="pointer-events-none"{% endif %}>
+        {%- if block.settings.external_video_url.type == 'youtube' -%}
+          <iframe src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&{% if block.settings.autoplay %}autoplay=1&controls=0&mute=1&loop=1&{% endif %}playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+        {%- elsif block.settings.external_video_url.type == 'vimeo' -%}
+          <iframe src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autopause=1&{% if block.settings.autoplay %}background=1&autoplay=1&loop=1&muted=1&{% endif %}transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+        {%- endif -%}
+      </video-media>
     {% else %}
       {{- content -}}
     {% endif %}
