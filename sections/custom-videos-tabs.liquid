@@ -46,7 +46,7 @@
         {%- endif -%}
 
         <div class="tabs-container">
-          <div class="sm:hidden">
+          <div class="sm:hidden hidden">
             {%- for block in section.blocks -%}
               {%- assign title = block.settings.title | default: "" -%}
               {%- assign content = block.settings.page.content | default: block.settings.content -%}
@@ -68,7 +68,7 @@
             {%- endfor -%}
           </div>
 
-          <x-tabs class="tabs-inner videos-tabs-inner">
+          <x-tabs class="videos-tabs-inner">
             <template shadowrootmode="open">
               <slot part="tab-panels" name="content"></slot>
               <slot role="tablist" part="custom-videos-tab-list" name="title"></slot>

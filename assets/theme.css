@@ -8524,6 +8524,120 @@ split-lines {
   .tabs-inner {
     display: none;
   }
+
+  .custom-tabs-inner {
+    text-align: center;
+    gap: var(--spacing-4);
+    display: grid;
+  }
+
+  .custom-tabs-inner::part(tab-list) {
+    box-shadow: inset 0 -2px rgb(var(--text-color) / .1);
+    grid: auto / auto-flow 1fr;
+    align-items: end;
+    display: grid;
+    position: relative;
+  }
+
+  .custom-tabs-inner::part(custom-tab-list) {
+    /* box-shadow: inset 0 -2px rgb(var(--text-color) / .1); */
+    grid: auto / auto-flow 1fr;
+    align-items: end;
+    display: grid;
+    position: relative;
+  }
+
+  .custom-tabs-inner::part(custom-tab-list):after {
+    /* content: ""; */
+    width: calc(100% / var(--item-count));
+    background: rgb(var(--text-color));
+    transform: translateX(calc(var(--selected-index) * var(--transform-logical-flip) * 100%));
+    height: 2px;
+    transition: transform .3s;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .videos-tabs-inner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .videos-tabs-inner::part(custom-videos-tab-list) {
+    box-shadow: inset 0 -2px rgb(var(--text-color) / .1);
+    display: flex;
+    position: relative;
+  }
+
+
+  .custom-tabs-nav__button {
+    padding-block-start: var(--spacing-6);
+    padding-block-end: var(--spacing-6);
+    color: var(--custom-text-color);
+    background-color: var(--custom-bg-color);
+    transition: color .2s ease-in-out;
+    border-radius: 10px;
+    width: 100px !important;
+    padding: 12px 6px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .custom-tabs-nav__button[aria-selected="true"] {
+    color: var(--custom-text-sec-color);
+    border-radius: 10px !important;
+    background-color: var(--custom-bg-sec-color);
+  }
+
+  .custom-tab-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .custom-videos-tab-content {
+    width: 100%;
+  }
+
+  .custom-videos-tabs-nav__button {
+    transition: color .2s ease-in-out;
+    background-color: var(--custom-vidoes-button-color);
+    width: 33.3333% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .custom-videos-tabs-nav__button[aria-selected="true"] {
+    background-color: var(--custom-vidoes-button-sec-color);
+  }
+
+  .custom-videos-tabs-nav__button_span_title {
+    font-size: 14px;
+    color: var(--custom-vidoes-tittle-color);
+    padding: 12px 6px 12px 6px;
+  }
+
+  .custom-videos-tabs-nav__button_span_sub_title {
+    display: none;
+    /* font-size: 24px;
+    color: var(--custom-vidoes-sub_tittle-color);
+    padding: 0px 30px 30px 30px; */
+  }
+
+  .custom-videos-tabs-nav__button[aria-selected="true"] .custom-videos-tabs-nav__button_span_title {
+    font-size: 14px;
+    color: var(--custom-vidoes-tittle-sec-color) !important;
+    padding: 12px 6px 12px 6px;
+  }
+
+  .custom-videos-tabs-nav__button[aria-selected="true"] .custom-videos-tabs-nav__button_span_sub_title {
+    font-size: 14px;
+    color: var(--custom-vidoes-sub_tittle-sec-color) !important;
+    padding: 12px 6px 12px 6px;
+  }
+
+
 }
 
 @media screen and (min-width: 700px) {
@@ -8541,8 +8655,22 @@ split-lines {
     position: relative;
   }
 
+  .custom-tabs-inner {
+    text-align: center;
+    gap: var(--spacing-4);
+    display: grid;
+  }
+
+  .custom-tabs-inner::part(tab-list) {
+    box-shadow: inset 0 -2px rgb(var(--text-color) / .1);
+    grid: auto / auto-flow 1fr;
+    align-items: end;
+    display: grid;
+    position: relative;
+  }
+
   .tabs-inner::part(tab-list):after {
-    /* content: ""; */
+    content: "";
     width: calc(100% / var(--item-count));
     background: rgb(var(--text-color));
     transform: translateX(calc(var(--selected-index) * var(--transform-logical-flip) * 100%));
@@ -8552,7 +8680,7 @@ split-lines {
     bottom: 0;
   }
 
-  .tabs-inner::part(custom-tab-list) {
+  .custom-tabs-inner::part(custom-tab-list) {
     /* box-shadow: inset 0 -2px rgb(var(--text-color) / .1); */
     grid: auto / auto-flow 1fr;
     align-items: end;
@@ -8560,7 +8688,7 @@ split-lines {
     position: relative;
   }
 
-  .tabs-inner::part(custom-tab-list):after {
+  .custom-tabs-inner::part(custom-tab-list):after {
     /* content: ""; */
     width: calc(100% / var(--item-count));
     background: rgb(var(--text-color));
