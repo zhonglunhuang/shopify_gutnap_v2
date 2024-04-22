@@ -686,6 +686,9 @@
         "item_HbfKkd",
         "item_An3YaD"
       ],
+      "custom_css": [
+        "a {border: 2px solid black; padding: 5px 10px; display: inline-block; background: unset; color: black; font-weight: 1000; border-radius: 10px;}"
+      ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
