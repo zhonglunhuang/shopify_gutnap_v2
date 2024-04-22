@@ -15,7 +15,7 @@
             "title": "擁抱深層好眠．擁抱毯 2.0",
             "heading_tag": "h2",
             "button_text": "什麼是重力毯",
-            "button_link": "",
+            "button_link": "shopify:\/\/products\/hugblanket2",
             "text_color": "#ffffff",
             "button_background": "#3f86a6",
             "button_text_color": "#ffffff",
@@ -653,7 +653,7 @@
             "title": "聽聽史考特醫師怎麼說！",
             "content": "<p>科學研究支持的擁抱毯，<br\/>給你溫暖包覆的安心感，<br\/>是舒適睡眠的秘密武器。<br\/>特別適合壓力大、難以入眠者，<br\/>看影片了解更多科學研究和使用心得。<\/p>",
             "link_text": "點我看影片",
-            "link_url": "",
+            "link_url": "https:\/\/youtu.be\/c6Y6nTeAr8I",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#272727",
@@ -682,7 +682,7 @@
             "title": "Tina Ng",
             "heading_tag": "h3",
             "content": "<p><strong>Yoo Pilates & Barre 創辦人<\/strong><br\/>長期淺眠、眠眠品質不好<\/p>",
-            "link_url": "",
+            "link_url": "https:\/\/youtu.be\/nP50S382g34",
             "link_text": "點我看影片",
             "link_style": "link"
           }
@@ -695,7 +695,7 @@
             "title": "史庭瑋 Mia",
             "heading_tag": "h3",
             "content": "<p><strong>關係療癒師<\/strong><br\/>協助個案緩和情緒及睡眠品質改善<\/p>",
-            "link_url": "",
+            "link_url": "https:\/\/youtu.be\/R_o_OTagxHs",
             "link_text": "點我看影片",
             "link_style": "link"
           }
@@ -708,7 +708,7 @@
             "title": "鄭翰霖",
             "heading_tag": "h3",
             "content": "<p><strong>靠設計創辦人<\/strong><br\/>睡眠中斷、淺眠，不易睡過夜<\/p>",
-            "link_url": "",
+            "link_url": "https:\/\/youtu.be\/JEv905xBKaY",
             "link_text": "點我看影片",
             "link_style": "link"
           }
@@ -721,7 +721,7 @@
             "title": "Johnson",
             "heading_tag": "h3",
             "content": "<p><strong>寶島野孩子創辦人<\/strong><br\/>睡眠品質不穩定<\/p>",
-            "link_url": "",
+            "link_url": "https:\/\/youtu.be\/8n-lDbCnEmE",
             "link_text": "點我看影片",
             "link_style": "link"
           }
