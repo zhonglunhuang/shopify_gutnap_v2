@@ -190,6 +190,56 @@
         "heading_gradient": ""
       }
     },
+    "custom_tabs_qqqq": {
+      "type": "custom-tabs",
+      "blocks": {
+        "tab_FzGNiE": {
+          "type": "tab",
+          "settings": {
+            "title": "獨創配重．擁抱毯 2.0",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "image_picker": "shopify:\/\/shop_images\/2024-03-17_5.49.42.png"
+          }
+        },
+        "tab_TngxPJ": {
+          "type": "tab",
+          "settings": {
+            "title": "一秒瞬黑，深眠眼罩",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "image_picker": "shopify:\/\/shop_images\/2024-03-17_5.48.10.png"
+          }
+        },
+        "tab_BammWm": {
+          "type": "tab",
+          "settings": {
+            "title": "雙面軟硬兼施，無憂枕",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "image_picker": "shopify:\/\/shop_images\/2024-03-17_4.39.43.png"
+          }
+        }
+      },
+      "block_order": [
+        "tab_FzGNiE",
+        "tab_TngxPJ",
+        "tab_BammWm"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "fill",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": true,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "button_color": "#3f86a6",
+        "button_second_color": "#ffd400",
+        "text_color": "#3f86a6",
+        "button_text_color": "#ffffff",
+        "text_second_color": "#3f86a6",
+        "heading_color": "#3f86a6",
+        "heading_gradient": ""
+      }
+    },
     "tabs_bpaXDr": {
       "type": "tabs",
       "blocks": {
@@ -223,6 +273,7 @@
         "tab_TngxPJ",
         "tab_BammWm"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "fill",
@@ -232,6 +283,63 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#3f86a6",
+        "heading_color": "#3f86a6",
+        "heading_gradient": ""
+      }
+    },
+    "custom_videos_tabs_aaaa": {
+      "type": "custom-videos-tabs",
+      "blocks": {
+        "tab_FzGNiE": {
+          "type": "tab",
+          "settings": {
+            "title": "無憂枕",
+            "sub_title": "減壓助眠・重力黑科技",
+            "content": "",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=I3t61T9-22s&list=PLyDguhAyZVG14FIAs9dyiC5vEnjmMl7UV&index=5",
+            "autoplay": true
+          }
+        },
+        "tab_TngxPJ": {
+          "type": "tab",
+          "settings": {
+            "title": "擁抱毯深眠眼罩",
+            "sub_title": "減壓助眠・重力黑科技",
+            "content": "",
+            "external_video_url": "https:\/\/youtu.be\/GPbHWv7E8K8?si=fu08ekkVONRRHyLX",
+            "autoplay": true
+          }
+        },
+        "tab_BammWm": {
+          "type": "tab",
+          "settings": {
+            "title": "無憂枕2.0",
+            "sub_title": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "external_video_url": "https:\/\/youtu.be\/gB2m7Hpnok8?si=bV-jmhS7P82c5CAC",
+            "autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "tab_FzGNiE",
+        "tab_TngxPJ",
+        "tab_BammWm"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "fill",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": true,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "button_color": "#d7dfe0",
+        "button_second_color": "#3f86a6",
+        "title_color": "#3f86a6",
+        "sub_title_color": "#3f86a6",
+        "title_second_color": "#ffd400",
+        "sub_title_second_color": "#ffffff",
         "heading_color": "#3f86a6",
         "heading_gradient": ""
       }
@@ -314,6 +422,7 @@
         "video_tPbAAz",
         "video_VBUA6L"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -370,6 +479,81 @@
         "text_color": ""
       }
     },
+    "revealed_image_on_scroll_razBKn": {
+      "type": "revealed-image-on-scroll",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gutnap_gif.gif",
+        "subheading": "",
+        "title": "",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "slideshow_xQYkCX": {
+      "type": "slideshow",
+      "blocks": {
+        "image_fTpRXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_-2.gif",
+            "mobile_image": "shopify:\/\/shop_images\/5__1200_x_1600.gif",
+            "content_max_width": 600,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "subheading": "助於身心放鬆，蓋上就跟焦慮說 Bye Bye",
+            "title": "「深層觸壓」",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fTpRXm"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f7f3ed",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_GnK9p3": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_ATQXfF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>對身體施加合適的重量，能有效舒緩焦慮，也因此按摩時總是特別好睡，而「擁抱毯」便是依據相似原理所打造的助眠好物！<br\/>「擁抱毯」藉由適量的負重，刺激「深層觸壓感」（Deep Pressure Touch Stimulation）能刺激分泌與睡眠息息相關的血清素和褪黑激素，幫助放鬆神經、抑制壓力，進而提升睡眠品質<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ATQXfF"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#f7f3ed",
+        "background_gradient": "",
+        "text_color": "#3f86a6"
+      }
+    },
     "slideshow_M4Ncjj": {
       "type": "slideshow",
       "blocks": {
@@ -408,67 +592,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "revealed_image_on_scroll_razBKn": {
-      "type": "revealed-image-on-scroll",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/gutnap_gif.gif",
-        "subheading": "",
-        "title": "",
-        "background": "",
-        "text_color_inside": "#ffffff",
-        "text_color_outside": "#000000"
-      }
-    },
-    "rich_text_GnK9p3": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_Qn367q": {
-          "type": "subheading",
-          "settings": {
-            "text": "助於身心放鬆，蓋上就跟焦慮說 Bye Bye"
-          }
-        },
-        "heading_3cNKrN": {
-          "type": "heading",
-          "settings": {
-            "text": "「深層觸壓」",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_ATQXfF": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>對身體施加合適的重量，能有效舒緩焦慮，也因此按摩時總是特別好睡，而「擁抱毯」便是依據相似原理所打造的助眠好物！<br\/>「擁抱毯」藉由適量的負重，刺激「深層觸壓感」（Deep Pressure Touch Stimulation）能刺激分泌與睡眠息息相關的血清素和褪黑激素，幫助放鬆神經、抑制壓力，進而提升睡眠品質<\/p>"
-          }
-        },
-        "image_eh9kFL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_fb9244ce-a350-4b58-88b6-ee7b5ce6d36a.gif",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        }
-      },
-      "block_order": [
-        "subheading_Qn367q",
-        "heading_3cNKrN",
-        "richtext_ATQXfF",
-        "image_eh9kFL"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "center",
-        "background": "#f7f3ed",
-        "background_gradient": "",
-        "text_color": "#3f86a6"
       }
     },
     "image_with_text_overlay_6A6N4m": {
@@ -778,133 +901,27 @@
         "accordion_background": "#3f86a6",
         "accordion_text_color": "#ffffff"
       }
-    },
-    "custom_tabs_qqqq": {
-      "type": "custom-tabs",
-      "blocks": {
-        "tab_FzGNiE": {
-          "type": "tab",
-          "settings": {
-            "title": "獨創配重．擁抱毯 2.0",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "image_picker": "shopify:\/\/shop_images\/2024-03-17_5.49.42.png"
-          }
-        },
-        "tab_TngxPJ": {
-          "type": "tab",
-          "settings": {
-            "title": "一秒瞬黑，深眠眼罩",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "image_picker": "shopify:\/\/shop_images\/2024-03-17_5.48.10.png"
-          }
-        },
-        "tab_BammWm": {
-          "type": "tab",
-          "settings": {
-            "title": "雙面軟硬兼施，無憂枕",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "image_picker": "shopify:\/\/shop_images\/2024-03-17_4.39.43.png"
-          }
-        }
-      },
-      "block_order": [
-        "tab_FzGNiE",
-        "tab_TngxPJ",
-        "tab_BammWm"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "fill",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": true,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "button_color": "#3f86a6",
-        "button_second_color": "#ffd400",
-        "text_color": "#3f86a6",
-        "button_text_color": "#ffffff",
-        "text_second_color": "#3f86a6",
-        "heading_color": "#3f86a6",
-        "heading_gradient": ""
-      }
-    },
-    "custom_videos_tabs_aaaa": {
-      "type": "custom-videos-tabs",
-      "blocks": {
-        "tab_FzGNiE": {
-          "type": "tab",
-          "settings": {
-            "title": "無憂枕",
-            "sub_title": "減壓助眠・重力黑科技",
-            "content": "",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=I3t61T9-22s&list=PLyDguhAyZVG14FIAs9dyiC5vEnjmMl7UV&index=5",
-            "autoplay": true
-          }
-        },
-        "tab_TngxPJ": {
-          "type": "tab",
-          "settings": {
-            "title": "擁抱毯深眠眼罩",
-            "sub_title": "",
-            "content": "",
-            "external_video_url": "https:\/\/youtu.be\/GPbHWv7E8K8?si=fu08ekkVONRRHyLX",
-            "autoplay": true
-          }
-        },
-        "tab_BammWm": {
-          "type": "tab",
-          "settings": {
-            "title": "無憂枕2.0",
-            "sub_title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "external_video_url": "https:\/\/youtu.be\/gB2m7Hpnok8?si=bV-jmhS7P82c5CAC",
-            "autoplay": true
-          }
-        }
-      },
-      "block_order": [
-        "tab_FzGNiE",
-        "tab_TngxPJ",
-        "tab_BammWm"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "fill",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": true,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "button_color": "#d7dfe0",
-        "button_second_color": "#3f86a6",
-        "title_color": "#3f86a6",
-        "sub_title_color": "#3f86a6",
-        "title_second_color": "#ffd400",
-        "sub_title_second_color": "#ffffff",
-        "heading_color": "#3f86a6",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
     "slideshow",
     "text_with_icons_QKxVWh",
     "collection-list",
+    "custom_tabs_qqqq",
     "tabs_bpaXDr",
+    "custom_videos_tabs_aaaa",
     "media-grid",
     "impact-text",
     "custom_html_Mt4gG8",
-    "slideshow_M4Ncjj",
     "revealed_image_on_scroll_razBKn",
+    "slideshow_xQYkCX",
     "rich_text_GnK9p3",
+    "slideshow_M4Ncjj",
     "image_with_text_overlay_6A6N4m",
     "text_with_icons_Q3tEKp",
     "image_with_text_overlay_GjCJhd",
     "media_with_text_g4aazd",
     "multi_column_BQhR7j",
-    "faq_dhaLxV",
-    "custom_tabs_qqqq",
-    "custom_videos_tabs_aaaa"
+    "faq_dhaLxV"
   ]
 }
