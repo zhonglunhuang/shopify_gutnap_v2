@@ -197,7 +197,7 @@
           "type": "tab",
           "settings": {
             "title": "獨創配重．擁抱毯 2.0",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "",
             "image_picker": "shopify:\/\/shop_images\/2024-03-17_5.49.42.png"
           }
         },
@@ -236,53 +236,6 @@
         "text_color": "#3f86a6",
         "button_text_color": "#ffffff",
         "text_second_color": "#3f86a6",
-        "heading_color": "#3f86a6",
-        "heading_gradient": ""
-      }
-    },
-    "tabs_bpaXDr": {
-      "type": "tabs",
-      "blocks": {
-        "tab_FzGNiE": {
-          "type": "tab",
-          "settings": {
-            "title": "獨創配重設計．擁抱毯 2.0",
-            "content": "",
-            "page": "擁抱毯"
-          }
-        },
-        "tab_TngxPJ": {
-          "type": "tab",
-          "settings": {
-            "title": "一秒瞬黑．深眠眼罩",
-            "content": "",
-            "page": "深眠眼罩"
-          }
-        },
-        "tab_BammWm": {
-          "type": "tab",
-          "settings": {
-            "title": "雙面軟硬兼施．無憂枕",
-            "content": "",
-            "page": "重力枕"
-          }
-        }
-      },
-      "block_order": [
-        "tab_FzGNiE",
-        "tab_TngxPJ",
-        "tab_BammWm"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "content_size": "fill",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": false,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#3f86a6",
         "heading_color": "#3f86a6",
         "heading_gradient": ""
       }
@@ -820,7 +773,6 @@
     "text_with_icons_QKxVWh",
     "collection-list",
     "custom_tabs_qqqq",
-    "tabs_bpaXDr",
     "custom_videos_tabs_aaaa",
     "impact-text",
     "custom_html_Mt4gG8",
