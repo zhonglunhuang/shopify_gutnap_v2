@@ -344,94 +344,6 @@
         "heading_gradient": ""
       }
     },
-    "media-grid": {
-      "type": "media-grid",
-      "blocks": {
-        "item-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2024-03-17_4.39.43.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 4,
-            "desktop_row_span": 3,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "video_tPbAAz": {
-          "type": "video",
-          "settings": {
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=GPbHWv7E8K8",
-            "show_video_controls": false,
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 3,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "video_VBUA6L": {
-          "type": "video",
-          "settings": {
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=TBu3QbGmaSQ",
-            "show_video_controls": false,
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "video_tPbAAz",
-        "video_VBUA6L"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
     "impact-text": {
       "type": "impact-text",
       "blocks": {
@@ -910,7 +822,6 @@
     "custom_tabs_qqqq",
     "tabs_bpaXDr",
     "custom_videos_tabs_aaaa",
-    "media-grid",
     "impact-text",
     "custom_html_Mt4gG8",
     "revealed_image_on_scroll_razBKn",
