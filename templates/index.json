@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -6,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1920-1280-01.png",
-            "mobile_image": "shopify:\/\/shop_images\/1280-1920-01.png",
+            "image": "shopify://shop_images/1920-1280-01.png",
+            "mobile_image": "shopify://shop_images/1280-1920-01.png",
             "content_max_width": 880,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -15,7 +24,7 @@
             "title": "擁抱深層好眠．擁抱毯 2.0",
             "heading_tag": "h2",
             "button_text": "什麼是重力毯",
-            "button_link": "shopify:\/\/products\/hugblanket2",
+            "button_link": "shopify://products/hugblanket2",
             "text_color": "#ffffff",
             "button_background": "#3f86a6",
             "button_text_color": "#ffffff",
@@ -48,56 +57,56 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/ICON-01-8.png",
+            "custom_icon": "shopify://shop_images/ICON-01-8.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "信用卡 \/ ATM",
-            "content": "<p>支援信用卡及ATM匯款<br\/>開立電子發票或統編<\/p>"
+            "title": "信用卡 / ATM",
+            "content": "<p>支援信用卡及ATM匯款<br/>開立電子發票或統編</p>"
           }
         },
         "item_EgraB6": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/ICON-02-8.png",
+            "custom_icon": "shopify://shop_images/ICON-02-8.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "全台免運費",
-            "content": "<p>全台免運費<br\/>就是讓你好眠無憂<\/p>"
+            "content": "<p>全台免運費<br/>就是讓你好眠無憂</p>"
           }
         },
         "item_rUQ9nJ": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/ICON-03-8.png",
+            "custom_icon": "shopify://shop_images/ICON-03-8.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "想找人聊聊",
-            "content": "<p>我們有podcast & 小編<br\/>會盡力讓你了解好眠小秘方<\/p>"
+            "content": "<p>我們有podcast & 小編<br/>會盡力讓你了解好眠小秘方</p>"
           }
         },
         "item_6VD9H7": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/ICON-04-8.png",
+            "custom_icon": "shopify://shop_images/ICON-04-8.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "15 天完整體驗",
-            "content": "<p>顧眠給你 15 天<br\/>好好的體驗重力<\/p>"
+            "content": "<p>顧眠給你 15 天<br/>好好的體驗重力</p>"
           }
         }
       },
@@ -126,10 +135,10 @@
           "type": "collection",
           "settings": {
             "collection": "擁抱毯",
-            "image": "shopify:\/\/shop_images\/1.jpg",
+            "image": "shopify://shop_images/1.jpg",
             "subheading": "適量的負重，刺激「深層觸壓感」幫助放鬆神經、抑制壓力，進而提升睡眠品質",
             "title": "擁抱毯 2.0",
-            "url": "shopify:\/\/products\/hugblanket2",
+            "url": "shopify://products/hugblanket2",
             "heading_tag": "h5",
             "text_position": "place-self-start-center text-center",
             "text_color": "#ffffff",
@@ -141,10 +150,10 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/2.jpg",
+            "image": "shopify://shop_images/2.jpg",
             "subheading": "深眠3D重力眼罩，100%遮光，一秒全黑好入眠",
             "title": "深眠眼罩",
-            "url": "shopify:\/\/products\/重力眼罩",
+            "url": "shopify://products/3d_gravity_eyemask",
             "heading_tag": "h5",
             "text_position": "place-self-start-center text-center",
             "text_color": "#ffffff",
@@ -156,10 +165,10 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/3.jpg",
+            "image": "shopify://shop_images/3.jpg",
             "subheading": "以獨特的人體工學切割設計，自然貼合頭頸區，有效減緩頸部壓力，避免不當睡姿導致的落枕。",
             "title": "無憂枕",
-            "url": "shopify:\/\/products\/gutpillow",
+            "url": "shopify://products/gutpillow",
             "heading_tag": "h5",
             "text_position": "place-self-start-center text-center",
             "text_color": "#ffffff",
@@ -181,7 +190,7 @@
         "subheading": "創新設計 只為好眠",
         "title": "睡個好覺 你有這些選擇",
         "content": "",
-        "link_url": "shopify:\/\/collections",
+        "link_url": "shopify://collections",
         "link_text": "查看更多",
         "background": "",
         "background_gradient": "",
@@ -198,23 +207,23 @@
           "settings": {
             "title": "獨創配重．擁抱毯 2.0",
             "content": "",
-            "image_picker": "shopify:\/\/shop_images\/2024-03-17_5.49.42.png"
+            "image_picker": "shopify://shop_images/2024-03-17_5.49.42.png"
           }
         },
         "tab_TngxPJ": {
           "type": "tab",
           "settings": {
             "title": "一秒瞬黑，深眠眼罩",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "image_picker": "shopify:\/\/shop_images\/2024-03-17_5.48.10.png"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "image_picker": "shopify://shop_images/2024-03-17_5.48.10.png"
           }
         },
         "tab_BammWm": {
           "type": "tab",
           "settings": {
             "title": "雙面軟硬兼施，無憂枕",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "image_picker": "shopify:\/\/shop_images\/2024-03-17_4.39.43.png"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "image_picker": "shopify://shop_images/2024-03-17_4.39.43.png"
           }
         }
       },
@@ -249,7 +258,7 @@
             "title": "無憂枕",
             "sub_title": "減壓助眠・重力黑科技",
             "content": "",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=I3t61T9-22s&list=PLyDguhAyZVG14FIAs9dyiC5vEnjmMl7UV&index=5",
+            "external_video_url": "https://www.youtube.com/watch?v=I3t61T9-22s&list=PLyDguhAyZVG14FIAs9dyiC5vEnjmMl7UV&index=5",
             "autoplay": true
           }
         },
@@ -259,7 +268,7 @@
             "title": "擁抱毯深眠眼罩",
             "sub_title": "減壓助眠・重力黑科技",
             "content": "",
-            "external_video_url": "https:\/\/youtu.be\/GPbHWv7E8K8?si=fu08ekkVONRRHyLX",
+            "external_video_url": "https://youtu.be/GPbHWv7E8K8?si=fu08ekkVONRRHyLX",
             "autoplay": true
           }
         },
@@ -268,8 +277,8 @@
           "settings": {
             "title": "無憂枕2.0",
             "sub_title": "",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "external_video_url": "https:\/\/youtu.be\/gB2m7Hpnok8?si=bV-jmhS7P82c5CAC",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "external_video_url": "https://youtu.be/gB2m7Hpnok8?si=bV-jmhS7P82c5CAC",
             "autoplay": true
           }
         }
@@ -305,7 +314,7 @@
           "settings": {
             "title": "用聽的產品說明書",
             "subheading": "針對擁抱毯的重力助眠法，是不是有很多疑問呢？",
-            "content": "<p><\/p><p>若小編不在，你可以花點時間，聽聽我們用心自製的 Podcast<br\/>除了關於產品的部分之外？<br\/>我們還有很多關於睡眠的一些心得以及想要分享給妳的一些知識，會不定期更新！<\/p>",
+            "content": "<p></p><p>若小編不在，你可以花點時間，聽聽我們用心自製的 Podcast<br/>除了關於產品的部分之外？<br/>我們還有很多關於睡眠的一些心得以及想要分享給妳的一些知識，會不定期更新！</p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -338,7 +347,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/episode\/2q8wiBvzlJcMs3gm3pxVac?utm_source=generator\" width=\"100%\" height=\"352\" frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+        "html": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/2q8wiBvzlJcMs3gm3pxVac?utm_source=generator\" width=\"100%\" height=\"352\" frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -348,7 +357,7 @@
       "type": "revealed-image-on-scroll",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/gutnap_gif.gif",
+        "image": "shopify://shop_images/gutnap_gif.gif",
         "subheading": "",
         "title": "",
         "background": "",
@@ -362,8 +371,8 @@
         "image_fTpRXm": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_-2.gif",
-            "mobile_image": "shopify:\/\/shop_images\/5__1200_x_1600.gif",
+            "image": "shopify://shop_images/5_-2.gif",
+            "mobile_image": "shopify://shop_images/5__1200_x_1600.gif",
             "content_max_width": 600,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -403,7 +412,7 @@
         "richtext_ATQXfF": {
           "type": "richtext",
           "settings": {
-            "content": "<p>對身體施加合適的重量，能有效舒緩焦慮，也因此按摩時總是特別好睡，而「擁抱毯」便是依據相似原理所打造的助眠好物！<br\/>「擁抱毯」藉由適量的負重，刺激「深層觸壓感」（Deep Pressure Touch Stimulation）能刺激分泌與睡眠息息相關的血清素和褪黑激素，幫助放鬆神經、抑制壓力，進而提升睡眠品質<\/p>"
+            "content": "<p>對身體施加合適的重量，能有效舒緩焦慮，也因此按摩時總是特別好睡，而「擁抱毯」便是依據相似原理所打造的助眠好物！<br/>「擁抱毯」藉由適量的負重，刺激「深層觸壓感」（Deep Pressure Touch Stimulation）能刺激分泌與睡眠息息相關的血清素和褪黑激素，幫助放鬆神經、抑制壓力，進而提升睡眠品質</p>"
           }
         }
       },
@@ -425,7 +434,7 @@
         "image_rrWXwR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gutnap_gif.gif",
+            "image": "shopify://shop_images/gutnap_gif.gif",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -472,7 +481,7 @@
         "richtext_G4MGgV": {
           "type": "richtext",
           "settings": {
-            "content": "<p>負重睡眠的簡單原理，可以追朔到深度觸摸壓力療法。<br\/>就像擁抱一樣，當重量均勻分佈在身體上時，<br\/>就會產生平靜、放鬆和舒適的美妙感覺。<br\/>這真的很神奇。<\/p>"
+            "content": "<p>負重睡眠的簡單原理，可以追朔到深度觸摸壓力療法。<br/>就像擁抱一樣，當重量均勻分佈在身體上時，<br/>就會產生平靜、放鬆和舒適的美妙感覺。<br/>這真的很神奇。</p>"
           }
         }
       },
@@ -485,7 +494,7 @@
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/2024-03-23_1.31.39.png",
+        "image": "shopify://shop_images/2024-03-23_1.31.39.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#3f86a6",
@@ -500,42 +509,42 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/01-ICON-01-8.png",
+            "custom_icon": "shopify://shop_images/01-ICON-01-8.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "#ffffff",
             "icon_color": "",
             "title": "平靜舒適",
-            "content": "<p>撫慰人心的擁抱感<br\/>安心且舒適<\/p>"
+            "content": "<p>撫慰人心的擁抱感<br/>安心且舒適</p>"
           }
         },
         "item_A6W6ew": {
           "type": "item",
           "settings": {
             "icon": "picto-validation",
-            "custom_icon": "shopify:\/\/shop_images\/01-ICON-02-8.png",
+            "custom_icon": "shopify://shop_images/01-ICON-02-8.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "一覺好眠",
-            "content": "<p>對身體施加溫和且均勻的壓力<br\/>帶來深層且舒服的睡眠<\/p>"
+            "content": "<p>對身體施加溫和且均勻的壓力<br/>帶來深層且舒服的睡眠</p>"
           }
         },
         "item_dGkR7h": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/01-ICON-03-8.png",
+            "custom_icon": "shopify://shop_images/01-ICON-03-8.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "醒來幸福",
-            "content": "<p>每次的醒來<br\/>都能感受到最純粹的幸福<\/p>"
+            "content": "<p>每次的醒來<br/>都能感受到最純粹的幸福</p>"
           }
         }
       },
@@ -569,7 +578,7 @@
         "richtext_jLHTYE": {
           "type": "richtext",
           "settings": {
-            "content": "<h4>擁抱的份量，問他們最知道！<\/h4>"
+            "content": "<h4>擁抱的份量，問他們最知道！</h4>"
           }
         }
       },
@@ -582,7 +591,7 @@
         "allow_transparent_header": true,
         "enable_parallax": true,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/2024-03-23_1.31.39.png",
+        "image": "shopify://shop_images/2024-03-23_1.31.39.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#3f86a6",
@@ -596,7 +605,7 @@
         "image_P3nXGJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_05.png",
+            "image": "shopify://shop_images/2_05.png",
             "media_width": 45,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -604,9 +613,9 @@
             "icon_width": 44,
             "subheading": "",
             "title": "聽聽史考特醫師怎麼說！",
-            "content": "<p>科學研究支持的擁抱毯，<br\/>給你溫暖包覆的安心感，<br\/>是舒適睡眠的秘密武器。<br\/>特別適合壓力大、難以入眠者，<br\/>看影片了解更多科學研究和使用心得。<\/p>",
+            "content": "<p>科學研究支持的擁抱毯，<br/>給你溫暖包覆的安心感，<br/>是舒適睡眠的秘密武器。<br/>特別適合壓力大、難以入眠者，<br/>看影片了解更多科學研究和使用心得。</p>",
             "link_text": "點我看影片",
-            "link_url": "https:\/\/youtu.be\/c6Y6nTeAr8I",
+            "link_url": "https://youtu.be/c6Y6nTeAr8I",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#272727",
@@ -630,12 +639,12 @@
         "item_W6KC8y": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_01.png",
+            "image": "shopify://shop_images/2_01.png",
             "column_size": "4",
             "title": "Tina Ng",
             "heading_tag": "h3",
-            "content": "<p><strong>Yoo Pilates & Barre 創辦人<\/strong><br\/>長期淺眠、眠眠品質不好<\/p>",
-            "link_url": "https:\/\/youtu.be\/nP50S382g34",
+            "content": "<p><strong>Yoo Pilates & Barre 創辦人</strong><br/>長期淺眠、眠眠品質不好</p>",
+            "link_url": "https://youtu.be/nP50S382g34",
             "link_text": "點我看影片",
             "link_style": "link"
           }
@@ -643,12 +652,12 @@
         "item_y3zgkN": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_03.png",
+            "image": "shopify://shop_images/2_03.png",
             "column_size": "4",
             "title": "史庭瑋 Mia",
             "heading_tag": "h3",
-            "content": "<p><strong>關係療癒師<\/strong><br\/>協助個案緩和情緒及睡眠品質改善<\/p>",
-            "link_url": "https:\/\/youtu.be\/R_o_OTagxHs",
+            "content": "<p><strong>關係療癒師</strong><br/>協助個案緩和情緒及睡眠品質改善</p>",
+            "link_url": "https://youtu.be/R_o_OTagxHs",
             "link_text": "點我看影片",
             "link_style": "link"
           }
@@ -656,12 +665,12 @@
         "item_HbfKkd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_04.png",
+            "image": "shopify://shop_images/2_04.png",
             "column_size": "4",
             "title": "鄭翰霖",
             "heading_tag": "h3",
-            "content": "<p><strong>靠設計創辦人<\/strong><br\/>睡眠中斷、淺眠，不易睡過夜<\/p>",
-            "link_url": "https:\/\/youtu.be\/JEv905xBKaY",
+            "content": "<p><strong>靠設計創辦人</strong><br/>睡眠中斷、淺眠，不易睡過夜</p>",
+            "link_url": "https://youtu.be/JEv905xBKaY",
             "link_text": "點我看影片",
             "link_style": "link"
           }
@@ -669,12 +678,12 @@
         "item_An3YaD": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_02.png",
+            "image": "shopify://shop_images/2_02.png",
             "column_size": "4",
             "title": "Johnson",
             "heading_tag": "h3",
-            "content": "<p><strong>寶島野孩子創辦人<\/strong><br\/>睡眠品質不穩定<\/p>",
-            "link_url": "https:\/\/youtu.be\/8n-lDbCnEmE",
+            "content": "<p><strong>寶島野孩子創辦人</strong><br/>睡眠品質不穩定</p>",
+            "link_url": "https://youtu.be/8n-lDbCnEmE",
             "link_text": "點我看影片",
             "link_style": "link"
           }
@@ -709,35 +718,35 @@
           "type": "item",
           "settings": {
             "title": "擁抱毯的尺寸？重量？要如何選擇適合的重量",
-            "content": "<p>成人: 150 x 200 CM<br\/>重量有分 5KG \/ 6KG \/ 8KG<br\/>一般來說，以體重的8~12%做為選購的依據<\/p>"
+            "content": "<p>成人: 150 x 200 CM<br/>重量有分 5KG / 6KG / 8KG<br/>一般來說，以體重的8~12%做為選購的依據</p>"
           }
         },
         "item_QVdFgg": {
           "type": "item",
           "settings": {
             "title": "怕熱的人群，這麼重的毯子怎麼辦？",
-            "content": "<p>擁抱毯最外層的毯套採用被業界稱為「會呼吸」的竹纖維，良好的透氣性以及親膚、涼感特性，能有效降低不適的悶熱及負重感，維持舒適的睡眠唷！（提醒您，長時間使用仍會依照自身體溫狀態而有相對應的溫升唷！）<\/p>"
+            "content": "<p>擁抱毯最外層的毯套採用被業界稱為「會呼吸」的竹纖維，良好的透氣性以及親膚、涼感特性，能有效降低不適的悶熱及負重感，維持舒適的睡眠唷！（提醒您，長時間使用仍會依照自身體溫狀態而有相對應的溫升唷！）</p>"
           }
         },
         "item_YwiLMM": {
           "type": "item",
           "settings": {
             "title": "玻璃紗在翻身時會跟著集中到某側嗎？",
-            "content": "<p>不會哦！毯子的七層結構以及多格行縫工藝，可以有效確保玻璃砂平均分佈在整張毯子中。<\/p>"
+            "content": "<p>不會哦！毯子的七層結構以及多格行縫工藝，可以有效確保玻璃砂平均分佈在整張毯子中。</p>"
           }
         },
         "item_tf4NpX": {
           "type": "item",
           "settings": {
             "title": "擁抱毯內裏的玻璃有沒有可能破掉或是漏出來呢？",
-            "content": "<p>最內層的玻璃並不是大家所想像如同彈珠的形狀，而是宛如流沙般、0.8~1.0mm 的極細微無鉛玻璃砂，所以不用擔心會有破碎的問題。而毯子內裏的 7 層材質設計也能有效防止玻璃砂外漏，並解決顆粒感、增加親膚性唷！<\/p>"
+            "content": "<p>最內層的玻璃並不是大家所想像如同彈珠的形狀，而是宛如流沙般、0.8~1.0mm 的極細微無鉛玻璃砂，所以不用擔心會有破碎的問題。而毯子內裏的 7 層材質設計也能有效防止玻璃砂外漏，並解決顆粒感、增加親膚性唷！</p>"
           }
         },
         "item_xGdCW4": {
           "type": "item",
           "settings": {
             "title": "重力被的原理有相關研究、資料可以參考嗎？",
-            "content": "<p>藉由施加重力刺激深層觸壓感，進而緩和情緒、安定安神的原理其實已累積許多研究與討論，市面上也可看到根據此原理發展的商品，例如「擁抱機」、「壓力背心」等，同時，部分醫療院所也以此方法用於輔助自閉症、過動症等兒童精神疾病的治療，以下列舉部分相關文獻供參考：<br\/>* <a href=\"https:\/\/www.liebertpub.com\/doi\/abs\/10.1089\/cap.1992.2.63\" target=\"_blank\">Calming Effects of Deep Touch Pressure in Patients with Autistic Disorder, College Students, and Animals<\/a><a href=\"https:\/\/www.tandfonline.com\/doi\/abs\/10.1300\/J004v24n01_05?needAccess=true\" target=\"_blank\">*  EngineeringExploring the Safety and Therapeutic Effects of Deep Pressure Stimulation Using a Weighted Blanket<\/a><a href=\"http:\/\/www.diva-portal.org\/smash\/record.jsf?pid=diva2%3A1081315&dswid=-8228\" target=\"_blank\">* Positive Effects of a Weighted Blanket on Insomnia<\/a><\/p>"
+            "content": "<p>藉由施加重力刺激深層觸壓感，進而緩和情緒、安定安神的原理其實已累積許多研究與討論，市面上也可看到根據此原理發展的商品，例如「擁抱機」、「壓力背心」等，同時，部分醫療院所也以此方法用於輔助自閉症、過動症等兒童精神疾病的治療，以下列舉部分相關文獻供參考：<br/>* <a href=\"https://www.liebertpub.com/doi/abs/10.1089/cap.1992.2.63\" target=\"_blank\">Calming Effects of Deep Touch Pressure in Patients with Autistic Disorder, College Students, and Animals</a><a href=\"https://www.tandfonline.com/doi/abs/10.1300/J004v24n01_05?needAccess=true\" target=\"_blank\">*  EngineeringExploring the Safety and Therapeutic Effects of Deep Pressure Stimulation Using a Weighted Blanket</a><a href=\"http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1081315&dswid=-8228\" target=\"_blank\">* Positive Effects of a Weighted Blanket on Insomnia</a></p>"
           }
         }
       },
@@ -752,7 +761,7 @@
         "full_width": true,
         "subheading": "Weighted Blanket",
         "title": "關於重力毯的終極指南",
-        "content": "<p>重力毯的工作原理和它們是如何幫助大進入睡眠狀態? <br\/>睡好覺跟減肥，在睡眠的科學支持的好處.......<\/p>",
+        "content": "<p>重力毯的工作原理和它們是如何幫助大進入睡眠狀態? <br/>睡好覺跟減肥，在睡眠的科學支持的好處.......</p>",
         "team_avatar_width": 150,
         "support_hours": "",
         "answer_time": "",
